@@ -36,7 +36,7 @@ sudo AUTO_INSTALL=y \
      APPROVE_IP=$PUB_IP \
      ENDPOINT=$FQDN \
 	CLIENT=${openvpn_user} \
-     ./openvpn-install.sh
+     ./openvpn-install.sh \
      install
 
 
