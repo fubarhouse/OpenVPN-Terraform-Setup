@@ -37,6 +37,7 @@ sudo AUTO_INSTALL=y \
      ENDPOINT=$FQDN \
 	CLIENT=${openvpn_user} \
      ./openvpn-install.sh
+     install
 
 
 echo "Moving User Profile ${openvpn_user}.ovpn to the Ubuntu user home directory..."
